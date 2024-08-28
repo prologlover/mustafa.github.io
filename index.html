@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة ومضة المستقبل للتجارة العامة</title>
+    <link href="/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: right;
+            direction: rtl;
+            background-color: #000000;
+            color: #ffffff;
+        }
+        .hero {
+            background-color: #d44c0e;
+            padding: 100px 0;
+            text-align: center;
+            color: #000000;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            animation: fadeIn 2s forwards;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            animation: fadeIn 2s forwards 1s;
+        }
+        .about {
+            background-color: #1a1a1a;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            margin-top: -50px;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: slideIn 2s forwards 1.5s;
+        }
+        .about h4 {
+            color: #ff6600;
+            margin-bottom: 20px;
+        }
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>شركة ومضة المستقبل للتجارة العامة</h1>
+        <p>محدودة المسؤولية</p>
+    </div>
+
+    <!-- About Section -->
+    <div class="container">
+        <div class="about">
+            <h4>حول الشركة</h4>
+            <p>العنوان: العراق- بغداد - الشورجة الرصافي م/١١٠ شارع/١٨ رقم المحل/ ١٦</p>
+            <p>المدير المفوض: ضرغام مكي صادق الخفاجي</p>
+            <p>رقم الهاتف: 07701623509</p>
+            <p>مكتب بريد: 14 تموز</p>
+            <p>رقم صندوق بريد: 18012</p>
+        </div>
+    </div>
+
+    <script src="/bootstrap.bundle.min.js"></script>
+</body>
+</html>
